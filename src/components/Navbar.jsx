@@ -5,7 +5,7 @@ const NavigationBar = (props) => (
     <Navbar.Brand href="#home">{props.title}</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="mr-auto">
+      <Nav className="ml-auto ">
         <Nav.Link href="#features">Home</Nav.Link>
         <Nav.Link href="#pricing">Browse</Nav.Link>
         <Nav.Link href="#pricing">Pricing</Nav.Link>
