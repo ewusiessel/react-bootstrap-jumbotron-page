@@ -1,9 +1,10 @@
 import { Container, Jumbotron } from "react-bootstrap";
+import "../App";
 
 function MyJumbotron() {
   return (
     <div>
-      <Jumbotron fluid>
+      <Jumbotron fluid className="myContainer">
         <Container>
           <h1>Fluid jumbotron</h1>
           <p>
