@@ -38,5 +38,14 @@
 }
 
 .myContainer {
-  background-image: url(./img/cameron-venti-TJtJk-5iPI0-unsplash.jpg);
+  background-image: url(./img/ed-robertson-eeSdJfLfx1A-unsplash.jpg);
+  background-color: black;
+}
+
+.styleWhite {
+  color: white;
+}
+
+.styleContrast {
+  filter: contrast(1.5);
 }

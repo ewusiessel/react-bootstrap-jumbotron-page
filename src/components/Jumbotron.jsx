@@ -4,10 +4,10 @@ import "../App";
 function MyJumbotron() {
   return (
     <div>
-      <Jumbotron fluid className="myContainer">
+      <Jumbotron fluid className="myContainer styleContrast styleOverlay">
         <Container>
-          <h1>Fluid jumbotron</h1>
-          <p>
+          <h1 className="styleWhite">Book Store Now Open</h1>
+          <p className="styleWhite">
             This is a modified jumbotron that occupies the entire horizontal
             space of its parent.
           </p>
